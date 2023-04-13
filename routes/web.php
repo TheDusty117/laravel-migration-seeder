@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Pagecontroller::class, 'homepage']);
+
+// Route::get('/trains,'[]);
