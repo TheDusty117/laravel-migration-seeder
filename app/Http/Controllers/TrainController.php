@@ -12,7 +12,7 @@ class TrainController extends Controller
 
     public function index(){
 
-        $trains = Train::all();
+        $trains = Train::where('orario_partenza','=>', );
 
         $data = [
             'trains' => $trains
