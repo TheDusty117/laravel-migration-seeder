@@ -18,6 +18,7 @@
                   <h5 class="card-title">Treno: {{ $train->azienda }}</h5>
                   <h5 class="card-title">Stazione Partenza: <br> {{ $train->stazione_partenza }} </h5>
                   <h5 class="card-title">Stazione Arrivo: <br> {{ $train->stazione_arrivo }} </h5>
+                  <p class="card-title">Codice Treno: {{ $train->codice_treno }} </p>
 
                 </div>
                 <ul class="list-group list-group-flush">
