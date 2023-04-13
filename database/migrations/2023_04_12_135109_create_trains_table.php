@@ -24,7 +24,7 @@ return new class extends Migration
             $table->tinyInteger('numero_carrozze')->unsigned()->default(1);
             $table->boolean('in_orario')->default(true);
             $table->boolean('cancellato')->default(false);
-            $table->string('img', 100);
+            $table->string('img', 100)->default('../images/regulartrain.jpg');
 
             $table->timestamps();
         });
